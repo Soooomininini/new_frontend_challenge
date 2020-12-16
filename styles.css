@@ -1,0 +1,21 @@
+body{
+  background-color: hsl(185, 75%, 39%);
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+}
+
+.bg-pattern-top{
+  position: relative;
+  right: 400px;
+  bottom: 500px;
+}
+.bg-pattern-bottom{
+  position: relative;
+  bottom: 700px;
+  left: 500px;
+
+  /* margin-bottom: 0; */
+}
