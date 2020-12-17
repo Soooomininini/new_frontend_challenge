@@ -20,13 +20,15 @@ body{
 
 .card{
   position: absolute;
+  box-shadow:10px 10px 10px 10px hsl(227, 10%, 46%);
   border-radius: 10px;
   width: 350px;
-  height: 300px;
-  background-color: white;
-  top: 150px;
+  height: 360px;
+  background-color: #FFFFFC;
+  top: 130px;
   left: 450px;
   z-index: 10;
+
 }
 .card-top img{
   border-top-left-radius: 10px;
@@ -34,7 +36,11 @@ body{
 }
 .card-contents img{
   position: absolute;
-  top: 180px;
-  left: 100px;
+  margin: -7rem 7.5rem;
   border-radius: 100%;
+  border: 5px solid #FFFFFC;
+}
+
+.card-contents{
+  margin-top: 50px;
 }
