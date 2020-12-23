@@ -70,14 +70,24 @@ body{
 
 .follow{
   align-items: flex-end;
-  border-top: 1px solid hsl(0, 0%, 59%);
+  border-top: 1px solid hsla(0, 0%, 59%, 0.5);
   display: flex;
   justify-content: space-between;
-  padding-top: 10%;
+  padding-top: 3%;
 }
-.bigLetters{
 
+.first, .second, .third{
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.bigLetters{
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
 }
 .smallLetters{
-
+  font-family: 'Kumbh Sans', sans-serif;
+  color: hsl(227, 10%, 46%);
 }
