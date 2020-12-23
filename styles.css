@@ -18,6 +18,8 @@ body{
   left: 600px;
 }
 
+/* card */
+
 .card{
   position: absolute;
   box-shadow:10px 10px 10px 10px hsl(227, 10%, 46%);
@@ -36,11 +38,46 @@ body{
 }
 .card-contents img{
   position: absolute;
-  margin: -7rem 7.5rem;
+  margin: -7rem 7rem;
   border-radius: 100%;
   border: 5px solid #FFFFFC;
 }
 
 .card-contents{
   margin-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.info{
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 5%;
+}
+.name{
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: bold;
+  margin: auto 2px;
+}
+.age,.city{
+  font-family: 'Kumbh Sans', sans-serif;
+  line-height: 1.5;
+  font-size: 18px;
+  color: hsl(227, 10%, 46%);
+  margin: auto 2px;
+}
+
+
+.follow{
+  align-items: flex-end;
+  border-top: 1px solid hsl(0, 0%, 59%);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10%;
+}
+.bigLetters{
+
+}
+.smallLetters{
+
 }
