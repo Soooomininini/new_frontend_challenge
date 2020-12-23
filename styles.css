@@ -15,7 +15,32 @@ body{
 .bg-pattern-bottom{
   position: relative;
   bottom: 700px;
-  left: 500px;
+  left: 600px;
+}
 
-  /* margin-bottom: 0; */
+.card{
+  position: absolute;
+  box-shadow:10px 10px 10px 10px hsl(227, 10%, 46%);
+  border-radius: 10px;
+  width: 350px;
+  height: 360px;
+  background-color: #FFFFFC;
+  top: 130px;
+  left: 450px;
+  z-index: 10;
+
+}
+.card-top img{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card-contents img{
+  position: absolute;
+  margin: -7rem 7.5rem;
+  border-radius: 100%;
+  border: 5px solid #FFFFFC;
+}
+
+.card-contents{
+  margin-top: 50px;
 }
